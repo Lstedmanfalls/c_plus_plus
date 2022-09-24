@@ -1,5 +1,6 @@
 # Random
 *.docx
+.vscode/
 
 # Prerequisites
 *.d
