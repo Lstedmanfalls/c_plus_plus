@@ -4,20 +4,22 @@
 
 int main()
 {
+
+    Monkey monkey;
     bool validSelection;
     do
     {
-        std::string choice = selection();
+        std::string choice = monkey.selection();
         if (choice == "Dance" || "dance")
         {
             validSelection = true;
-            dance();
+            monkey.dance();
         }
 
         else if (choice == "Eat" || "eat")
         {
             validSelection = true;
-            eat();
+            monkey.eat();
         }
 
         else

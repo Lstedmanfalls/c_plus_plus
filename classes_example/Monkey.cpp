@@ -2,7 +2,7 @@
 #include "Monkey.h"
 #include <string>
 
-std::string selection()
+std::string Monkey::selection()
 {
     std::string choice;
     std::cout << "What do you want the monkey to do? (Dance, Eat)?: ";
@@ -12,12 +12,12 @@ std::string selection()
     return choice;
 }
 
-void dance()
+void Monkey::dance()
 {
     std::cout << "Monkey says: Dance for me, dance for me, ei ei ei" << std::endl;
 }
 
-void eat()
+void Monkey::eat()
 {
     std::cout << "Monkey says: nom nom" << std::endl;
 }
