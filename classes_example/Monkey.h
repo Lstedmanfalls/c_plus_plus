@@ -4,6 +4,10 @@
 
 class Monkey
 {
+
+private:
+    bool angry;
+
 public:
     void dance();
     void eat();
