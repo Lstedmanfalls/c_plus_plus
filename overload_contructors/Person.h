@@ -13,7 +13,7 @@ private:
     int age;
 
 public:
-    Person(std::string newName, int newAge);
+    Person(std::string name, int age);
     std::string toString();
 };
 

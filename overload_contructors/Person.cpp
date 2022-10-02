@@ -3,10 +3,10 @@
 #include "Person.h"
 #include <sstream>
 
-Person::Person(std::string newName, int newAge)
+Person::Person(std::string name, int age)
 {
-    name = newName;
-    age = newAge;
+    this->name = name;
+    this->age = age;
 }
 
 std::string Person::toString()

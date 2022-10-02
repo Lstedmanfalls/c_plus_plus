@@ -11,6 +11,7 @@ int main()
     std::cin >> name;
     std::cout << "What's your age? ";
     std::cin >> age;
+
     Person person2(name, age);
 
     std::cout << "\n"
