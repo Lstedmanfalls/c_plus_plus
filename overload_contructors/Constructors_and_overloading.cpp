@@ -12,9 +12,9 @@ int main()
     std::cout << "What's your age? ";
     std::cin >> age;
 
-    Person person2(name, age);
+    Person user(name, age);
 
     std::cout << "\n"
-              << person2.toString() << std::endl;
+              << user.toString() << std::endl;
     return 0;
 }
