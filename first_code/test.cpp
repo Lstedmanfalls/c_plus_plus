@@ -149,7 +149,6 @@ void selfTestEight()
 int main()
 {
     int randomInt = 5;
-    std::cout << randomInt.size() << std::endl;
     bool validChoice = true;
     do
     {

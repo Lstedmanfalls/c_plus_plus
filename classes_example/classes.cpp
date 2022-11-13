@@ -10,13 +10,13 @@ int main()
     do
     {
         std::string choice = monkey.selection();
-        if (choice == "Dance" || "dance")
+        if (choice == "Dance" || choice == "dance")
         {
             validSelection = true;
             monkey.dance();
         }
 
-        else if (choice == "Eat" || "eat")
+        else if (choice == "Eat" || choice == "eat")
         {
             validSelection = true;
             monkey.eat();
